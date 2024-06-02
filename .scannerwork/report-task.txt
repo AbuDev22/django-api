@@ -1,0 +1,6 @@
+projectKey=dev-api
+serverUrl=http://localhost:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://localhost:9000/dashboard?id=dev-api
+ceTaskId=9c1d57cd-a9a2-4c97-8ebf-98c632245619
+ceTaskUrl=http://localhost:9000/api/ce/task?id=9c1d57cd-a9a2-4c97-8ebf-98c632245619

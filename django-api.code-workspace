@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../todoApp-django"
+		},
+		{
+			"path": "../django-todo"
+		}
+	],
+	"settings": {}
+}
