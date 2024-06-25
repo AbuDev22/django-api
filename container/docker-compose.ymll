@@ -1,0 +1,56 @@
+
+services:
+  api:
+    image: abudev22/django-api
+    ports:
+      - "8000:8000"
+    #command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - my-postgres
+   
+  my-postgres:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - "POSTGRES_PASSWORD=postgres"
+   
+
+volumes:
+  postgres_data:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
